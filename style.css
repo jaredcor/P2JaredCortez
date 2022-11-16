@@ -1,0 +1,10 @@
+.class1{
+    font-family: "Helvetica", sans-serif;
+}
+
+.canvas_class{
+    transform: translateX(50vw)
+}
+p {
+    margin: 1.5em;
+}

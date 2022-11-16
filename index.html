@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HCI Project 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>
+    HCI Project 2 Report
+    <h3>
+        Discussion of my design and sketch for a C:
+    </h3>
+    <p>
+        Below is my sketch:
+    </p>
+    <img src="assets/project%202%20sketch.jpg" width="50%" height="50%">
+    <p>
+        My thought process behind this design was to keep the center empty so that the person can use the mirror for its
+        original function, while keeping the smart functions close and easily visible.
+        The mirror was designed to be split into 3 columns:
+        <ul>
+            <li>the left one being more focused on time, concerning the user's schedule and top news stories</li>
+            <li>the middle being focused on the user themself, with the time and weather being easily viewable without
+                moving their eyes too much</li>
+            <li>the right focusing more on the user's life and wellbeing, showing notifications from social media and
+                their hours of sleep</li>
+        </ul>
+        <p>The main goal of this design was to make sure that the smart functions are not overpowering the mirror's
+        original purpose.</p>
+    </p>
+    <h3>
+        Explanation of my implementation and how my mirror works for a B
+    </h3>
+    <p>My implementation is in javascript using the p5.js library is at the bottom of the page. </p>
+    <div>
+        <script src="lib/p5.js"></script>
+        <script src="sketch.js"></script>
+    </div>
+    <p>I was able to implement most of my sketch, having to omit the social feed items. The widgets were implemented
+        as such:</p>
+        <ul>
+            <li>The clock and date widgets were implemented using the Date() class</li>
+            <li>The weather widget, and top stories widget were both implemented using APIs</li>
+            <li>The schedule is implemented by reading from a csv file</li>
+            <li>The time spent sleeping widget is hard coded</li>
+        </ul>
+    <p>The only part of the mirror that the user can interact with is the row of colored buttons at the bottom, which is
+    the advanced feature and will be explained later in the report.
+    </p>
+    <h3>
+        Explanation of the advanced feature and embedded presentation video for an A
+    </h3>
+    <p>The advanced feature I have implemented in my mirror is for it to act as a light source, with the default color
+        being the mirror's "off" state. It can be used by clicking the colored buttons and the colors act as led lights,
+        with the last button acting as an off switch, turning the led lights "off".</p>
+    <p>Below is my embedded presentation video on youtube:</p>
+    <iframe width="420" height="315" src=""></iframe>
+</h1>
+</body>
+</html>
